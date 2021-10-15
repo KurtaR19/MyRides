@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MyRides</string>
+    <string name="col1">To</string>
+    <string name="col2">From</string>
+    <string name="col3">Date</string>
+    <string name="col4">Pickup Info</string>
+    <string name="col5">Driver Name</string>
+    <string name="col6">Driver Number</string>
+
+
+
+    <string name="row1To">Troy</string>
+    <string name="row2From">Ajo</string>
+    <string name="row3Date">2/8/21</string>
+    <string name="row4Pickup">1 bag</string>
+    <string name="row5DriverName">Adam Wilson</string>
+    <string name="row6DriverNumber">205-571-1459</string>
+
+
+    <string name="row21To">Napa</string>
+    <string name="row22From">Lodi</string>
+    <string name="row33Date">8/2/21</string>
+    <string name="row44Pickup">No Bags</string>
+    <string name="row55DriverName">Jack Aye</string>
+    <string name="row66DriverNumber">530-102-4901</string>
+
+    <string name="row111To">Gary</string>
+    <string name="row222From">Peru</string>
+    <string name="row333Date">7/9/21</string>
+    <string name="row444Pickup">No Pets</string>
+    <string name="row555DriverName">Bill Thorn</string>
+    <string name="row666DriverNumber">765-901-4490</string>
+
+</resources>

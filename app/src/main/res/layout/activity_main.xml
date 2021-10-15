@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_margin="40dp">
+
+        <!-- Table Heading -->
+
+        <TableRow
+            android:background="@color/colorPurple">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col1"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="3.75"
+                android:layout_gravity="center_horizontal"
+            />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col2"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/col3"
+            android:textColor="@android:color/white"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="5"
+            android:layout_gravity="center_horizontal"
+            />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col4"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="5.2"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col5"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col6"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="7"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+
+        </TableRow>
+
+        <!-- Table Data -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row1To"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="13sp"
+                android:layout_weight="4.1"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row2From"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row3Date"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6.9"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row4Pickup"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6.2"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row5DriverName"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row6DriverNumber"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4.7"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row21To"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4.15"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row22From"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4.7"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row33Date"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row44Pickup"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row55DriverName"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row66DriverNumber"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row111To"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row222From"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4.9"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row333Date"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row444Pickup"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6.26"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row555DriverName"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row666DriverNumber"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="13sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</RelativeLayout>
